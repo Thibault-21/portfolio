@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <title>My portfolio</title>
+</head>
+<body>
+  <header>
+    <nav id="navbar" class="nav">
+      <ul class="nav-list-1">
+        <li><a class="nav-link" href="#welcome_section">Home</a></li>
+        <li><a class="nav-link" href="#projects">Projects</a></li>
+        <li><a class="nav-link" href="https://github.com/Thibault-21">My profil link</a></li>
+        <li><a class="nav-link" href="#contact">Contacts</a></li>
+
+      </ul>
+      <ul class="nav-list-2">
+        <li><a class="nav-link" href="https://www.linkedin.com/in/thibault-decousus-16457579/"target="_blank">
+        <i class="fab fa-linkedin-in"></i></a></li>
+        <li><a class="nav-link" href="https://www.facebook.com/thibault.decousus"target="_blank">
+            <i class="fab fa-facebook-square"></i></a></li>
+        <li><a class="nav-link" href="https://www.reddit.com/user/JHB21"target="_blank">
+            <i class="fab fa-reddit"></i></a></li>
+        <li><a class="nav-link" href="https://github.com/Thibault-21"target="_blank">
+            <i class="fab fa-github-square"></i>
+        </a></li>
+      </ul>
+    </nav>
+  </header>
+  <section id="welcom_section">
+      <h1>Hi, My name is Thibault.
+          I'm a web developer
+      </h1>
+  
+  </section>
+  <section id="projects">
+    <div class="project-tile">
+      <div class="card">
+        <h3>My landing page</h3>
+        <a href="file:///C:/work/Cours%20HTML-CSS/Freecodecamp/Responsive%20web%20design%20certification/projects/Product%20Landing%20Page/index/index.html"target="_blank" class="my_landing_page">
+        <img src="images/landingpage.png" alt="landingpage"></a>
+      </div>
+      <div class="card">
+          <h3>Survey form</h3>
+          <a href="file:///C:/work/Cours%20HTML-CSS/Freecodecamp/Responsive%20web%20design%20certification/projects/Survey%20form/index.html"target="_blank" class="survey_form">
+        <img src="images/survey_form.png" alt="survey"></a>
+      </div>
+      <div class="card">
+          <h3>My tribute page</h3>
+          <a href="file:///C:/work/Cours%20HTML-CSS/Freecodecamp/Responsive%20web%20design%20certification/projects/Tribute%20page/index.html"target="_blank" class="tribute_page">
+          <img src="images/tribute_page.png" alt="tribute_page"></a>
+      </div>
+      <div class="card">
+          <h3>Technical documentation </h3>
+          <a href="file:///C:/work/Cours%20HTML-CSS/Freecodecamp/Responsive%20web%20design%20certification/projects/technical%20documentation/index.html"target="_blank" class="technical_doc">
+          <img src="images/technical_doc.png" alt="Technical_documentation "> </a>
+      </div>
+    </div>
+    <section id="contact">
+     <form id="form" action="https://www.freecodecamp.com/email-submit" method="GET"></form>
+      <div class="identification">
+        <div class="rowTab">
+          <div class="labels">
+            <label id="name-label" for="name">* Name: </label>
+          </div>
+          <div class="rightTab">
+            <input autofocus type="text" name="name" id="name" class="input-field" placeholder="Enter your name" required>
+          </div>
+        </div>
+        <div class="rowTab">
+          <div class="labels">
+            <label id="email-label" for="email">* Email: </label>
+          </div>
+          <div class="rightTab">
+            <input type="email" name="email" id="email" class="input-field" required placeholder="Enter your Email">
+          </div>
+        <div class="rowTab">
+          <div class="labels">
+            <label for="currentPos">Who do you work for?</label>
+          </div>
+          <div class="rightTab">
+            <select id="dropdown" name="currentPos" class="dropdown">
+             <option disabled value>Select an option</option>
+             <option  value="student">startup</option>
+             <option value="job">school</option>
+             <option value="entrepreneur">big company (cac 40)</option>
+             <option value="preferNo">middle company</option>
+             <option value="other">Other</option>
+            </select>
+        <div class="rowTab">
+          <div class="labels">
+            <textarea rows="6" cols="38" placeholder="please write here the name of your company"></textarea>
+          </div>
+        </div>      
+            <button id="submit" type="submit">Submit</button>
+            <h4 class="copy">&copy Portfolio - Thibault Decousus</h4>
+         </div>
+        </div>
+       </div>
+      </div>
+     </form>
+    </section>
+  </section>
+  <footer></footer>
+</body>
+</html>

@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
+  body
+  {
+    display: flex;
+    flex-direction: column;
+    width: 1277px;
+    font-family: 'open_sans',Arial, Helvetica, sans-serif;
+    margin: 0;
+  }
+
+  .nav {
+    display: flex;
+    justify-content: flex-start;
+    background-color: rgb(25, 15, 140);
+    position: fixed;
+    width: 100%;
+   
+  }
+  .nav-list-1 {
+    display: flex;
+  }
+  .nav .nav-list-1 li {
+    list-style-type: none;
+  }
+
+  .nav .nav-list-1 li a {
+    display:flex;
+    flex-direction: row;
+    text-decoration: none;
+    color: #fff;;
+    padding: 5px;
+    margin: 0px;
+  }
+
+  .nav-list-2 {
+    display:flex;
+    
+  }
+  .nav .nav-list-2 li {
+    list-style-type: none;
+    justify-content:flex-end;
+  }
+  .nav .nav-list-2 li a {
+    display:flex;
+    flex-direction: row;
+    
+    text-decoration: none;
+    color: #fff;;
+    padding: 5px;
+    margin: 0px;
+  }
+  #welcom_section {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(219, 219, 219);
+    color: #555;
+    height: 450px;
+    flex-wrap: wrap;
+  }
+ 
+  img {
+    height: 270px;
+    width: 470px;
+  }
+
+#projects {
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: rgb(69, 86, 125);
+}
+.project-tile {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 5px 5px 5px 5px;
+    padding: 15px 5px 15px 5px;
+}
+.card {
+  border: 1px solid #555;
+  padding: 15px 5px 15px 5px;
+  margin: 20px 5px 5px 5px;
+  border-radius: 5px;
+  background-color: #fff;
+}
+.project-tile h3 {
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+
+#contact {
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: #59ace0;
+width: 100%;
+color: #fff;
+padding: 20px;
+margin-top: 20px;
+  }
+
+.identification {
+  display: flex;
+  flex-direction: column;
+
+}
+.labels {
+  display: inline-block;
+  text-align: right;
+  width: 40%;
+  padding: 5px;
+  vertical-align: top;
+  margin-top: 10px;
+  }
+  
+.rightTab {
+  display: inline-block;
+  text-align: left;
+  width: 48%;
+  vertical-align: middle;
+  }
+  
+.input-field {
+  height: 20px;
+  width: 280px;
+  padding: 5px;
+  margin: 10px;
+  border: 1px solid #c0c0c0;
+  border-radius: 2px;
+  }
+  
+  #userAge {
+  width: 40px;
+  }
+  
+  .userRatings,
+  input[type="checkbox"] {
+    float: left;
+    margin-right: 5px;
+  }
+  
+  #submit {
+    background-color: #fff;
+    border-radius: 4px;
+    color: #59ace0;
+    font-size: 1em;
+    height: 40px;
+    width: 96px;
+    margin: 20px;
+    border: 0px solid;
+  }
+  
+  .dropdown {
+    height: 35px;
+    width: 140px;
+    padding: 5px;
+    margin: 10px;  
+    margin-top: 15px;
+    border: 1px solid #c0c0c0;
+    border-radius: 2px;
+  }
+  
+  .radio, .checkbox {
+    position: relative;
+    left: -43px;
+    margin-left: 10px;
+    display: block;
+    padding-bottom: 10px;
+  }
+  
+  @media screen and (max-width: 833px) {
+    .input-field {
+      width: 80%;
+    }
+    select {
+      width: 90%;
+    }
+  }
+  
+  @media screen and (max-width: 520px) {
+    .labels {
+      width: 100%;
+      text-align: left;
+    }
+    .rightTab {
+      width: 80%;
+      float: left;
+    }
+    .input-field {
+      width: 100%;
+    }
+    select {
+      width: 100%;
+    }
+  }
+.copy {
+display: flex;
+
+}
